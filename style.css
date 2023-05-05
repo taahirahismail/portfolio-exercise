@@ -12,9 +12,32 @@
 
 .icons-2 {
     width: 100px;
-    padding: 10px;
+    padding: 20px;
 }
 
-:root {
-    -o-animation-duration: 5s;
+.heart-ani {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 20%;
+    position: relative;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box {
+    0%  {left: 0%;}
+    25% {left: 25%; transform: rotate(45deg) ;}
+    50% {left: 50%; transform: rotate(90deg);}
+    75% {left: 75%; transform: rotate(135deg);}
+    100% {left: 90%; transform: rotate(180deg);}
+}
+
+main {
+    background-color: ivory;
+}
+
+.navbar-toggler {
+    background-color: ivory !important;
 }
