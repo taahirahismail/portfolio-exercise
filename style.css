@@ -5,3 +5,16 @@
 .icons {
     width: 20px;
 }
+
+.links {
+    text-decoration: none;
+}
+
+.icons-2 {
+    width: 100px;
+    padding: 10px;
+}
+
+:root {
+    -o-animation-duration: 5s;
+}
